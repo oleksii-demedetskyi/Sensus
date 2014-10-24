@@ -52,7 +52,7 @@
 		487AFECB19FAD8C9005821D4 /* SNSSens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSens.h; sourceTree = "<group>"; };
 		487AFECE19FADA04005821D4 /* SNSRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSRoot.h; sourceTree = "<group>"; };
 		487AFECF19FADA04005821D4 /* SNSRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSRoot.m; sourceTree = "<group>"; };
-		487AFED719FAE047005821D4 /* Sensus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sensus.h; sourceTree = "<group>"; };
+		487AFED719FAE047005821D4 /* Sensus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sensus.h; path = Sensus/Sensus.h; sourceTree = "<group>"; };
 		487AFED919FB0057005821D4 /* SNSSensTyped_asIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asIs.h; sourceTree = "<group>"; };
 		487AFEDA19FB0057005821D4 /* SNSSensTyped_asIs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asIs.m; sourceTree = "<group>"; };
 		487AFEDC19FB0193005821D4 /* SNSSensImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensImpl.h; sourceTree = "<group>"; };
@@ -71,6 +71,7 @@
 		487AFEEF19FB039B005821D4 /* SNSSensTyped_asArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asArray.m; sourceTree = "<group>"; };
 		487AFEF119FB03A7005821D4 /* SNSSensTyped_asDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asDictionary.h; sourceTree = "<group>"; };
 		487AFEF219FB03A7005821D4 /* SNSSensTyped_asDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asDictionary.m; sourceTree = "<group>"; };
+		487AFEF519FB17B3005821D4 /* Sensus.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sensus.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +96,10 @@
 		487AFEA219FAD79F005821D4 = {
 			isa = PBXGroup;
 			children = (
+				487AFEF519FB17B3005821D4 /* Sensus.podspec */,
+				487AFED719FAE047005821D4 /* Sensus.h */,
 				487AFEF419FB144D005821D4 /* Core */,
 				487AFED819FB002B005821D4 /* Mappers */,
-				487AFED719FAE047005821D4 /* Sensus.h */,
-				487AFEC819FAD82A005821D4 /* NSDictionary+Sensus.h */,
-				487AFEC919FAD82A005821D4 /* NSDictionary+Sensus.m */,
 				487AFEBA19FAD79F005821D4 /* SensusTests */,
 				487AFEAC19FAD79F005821D4 /* Products */,
 			);
@@ -151,11 +151,14 @@
 				487AFEF219FB03A7005821D4 /* SNSSensTyped_asDictionary.m */,
 			);
 			name = Mappers;
+			path = Sensus/Mappers;
 			sourceTree = "<group>";
 		};
 		487AFEF419FB144D005821D4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				487AFEC819FAD82A005821D4 /* NSDictionary+Sensus.h */,
+				487AFEC919FAD82A005821D4 /* NSDictionary+Sensus.m */,
 				487AFECE19FADA04005821D4 /* SNSRoot.h */,
 				487AFECF19FADA04005821D4 /* SNSRoot.m */,
 				487AFECB19FAD8C9005821D4 /* SNSSens.h */,
@@ -163,6 +166,7 @@
 				487AFEDD19FB0193005821D4 /* SNSSensImpl.m */,
 			);
 			name = Core;
+			path = Sensus/Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
