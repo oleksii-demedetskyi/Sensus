@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		487AFEAF19FAD79F005821D4 /* Sensus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 487AFEAE19FAD79F005821D4 /* Sensus.h */; };
+		487AFEB119FAD79F005821D4 /* Sensus.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEB019FAD79F005821D4 /* Sensus.m */; };
+		487AFEB719FAD79F005821D4 /* libSensus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 487AFEAB19FAD79F005821D4 /* libSensus.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		487AFEB819FAD79F005821D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 487AFEA319FAD79F005821D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 487AFEAA19FAD79F005821D4;
+			remoteInfo = Sensus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		487AFEA919FAD79F005821D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				487AFEAF19FAD79F005821D4 /* Sensus.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		487AFEAB19FAD79F005821D4 /* libSensus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSensus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		487AFEAE19FAD79F005821D4 /* Sensus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sensus.h; sourceTree = "<group>"; };
+		487AFEB019FAD79F005821D4 /* Sensus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sensus.m; sourceTree = "<group>"; };
+		487AFEB619FAD79F005821D4 /* SensusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		487AFEBC19FAD79F005821D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		487AFEA819FAD79F005821D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487AFEB319FAD79F005821D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487AFEB719FAD79F005821D4 /* libSensus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		487AFEA219FAD79F005821D4 = {
+			isa = PBXGroup;
+			children = (
+				487AFEAD19FAD79F005821D4 /* Sensus */,
+				487AFEBA19FAD79F005821D4 /* SensusTests */,
+				487AFEAC19FAD79F005821D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		487AFEAC19FAD79F005821D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				487AFEAB19FAD79F005821D4 /* libSensus.a */,
+				487AFEB619FAD79F005821D4 /* SensusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		487AFEAD19FAD79F005821D4 /* Sensus */ = {
+			isa = PBXGroup;
+			children = (
+				487AFEAE19FAD79F005821D4 /* Sensus.h */,
+				487AFEB019FAD79F005821D4 /* Sensus.m */,
+			);
+			path = Sensus;
+			sourceTree = "<group>";
+		};
+		487AFEBA19FAD79F005821D4 /* SensusTests */ = {
+			isa = PBXGroup;
+			children = (
+				487AFEBB19FAD79F005821D4 /* Supporting Files */,
+			);
+			path = SensusTests;
+			sourceTree = "<group>";
+		};
+		487AFEBB19FAD79F005821D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				487AFEBC19FAD79F005821D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		487AFEAA19FAD79F005821D4 /* Sensus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487AFEBF19FAD79F005821D4 /* Build configuration list for PBXNativeTarget "Sensus" */;
+			buildPhases = (
+				487AFEA719FAD79F005821D4 /* Sources */,
+				487AFEA819FAD79F005821D4 /* Frameworks */,
+				487AFEA919FAD79F005821D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sensus;
+			productName = Sensus;
+			productReference = 487AFEAB19FAD79F005821D4 /* libSensus.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		487AFEB519FAD79F005821D4 /* SensusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487AFEC219FAD79F005821D4 /* Build configuration list for PBXNativeTarget "SensusTests" */;
+			buildPhases = (
+				487AFEB219FAD79F005821D4 /* Sources */,
+				487AFEB319FAD79F005821D4 /* Frameworks */,
+				487AFEB419FAD79F005821D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				487AFEB919FAD79F005821D4 /* PBXTargetDependency */,
+			);
+			name = SensusTests;
+			productName = SensusTests;
+			productReference = 487AFEB619FAD79F005821D4 /* SensusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		487AFEA319FAD79F005821D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DAloG;
+				TargetAttributes = {
+					487AFEAA19FAD79F005821D4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					487AFEB519FAD79F005821D4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 487AFEA619FAD79F005821D4 /* Build configuration list for PBXProject "Sensus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 487AFEA219FAD79F005821D4;
+			productRefGroup = 487AFEAC19FAD79F005821D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				487AFEAA19FAD79F005821D4 /* Sensus */,
+				487AFEB519FAD79F005821D4 /* SensusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		487AFEB419FAD79F005821D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		487AFEA719FAD79F005821D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487AFEB119FAD79F005821D4 /* Sensus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		487AFEB219FAD79F005821D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		487AFEB919FAD79F005821D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 487AFEAA19FAD79F005821D4 /* Sensus */;
+			targetProxy = 487AFEB819FAD79F005821D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		487AFEBD19FAD79F005821D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		487AFEBE19FAD79F005821D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		487AFEC019FAD79F005821D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		487AFEC119FAD79F005821D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		487AFEC319FAD79F005821D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SensusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		487AFEC419FAD79F005821D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SensusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		487AFEA619FAD79F005821D4 /* Build configuration list for PBXProject "Sensus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487AFEBD19FAD79F005821D4 /* Debug */,
+				487AFEBE19FAD79F005821D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487AFEBF19FAD79F005821D4 /* Build configuration list for PBXNativeTarget "Sensus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487AFEC019FAD79F005821D4 /* Debug */,
+				487AFEC119FAD79F005821D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		487AFEC219FAD79F005821D4 /* Build configuration list for PBXNativeTarget "SensusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487AFEC319FAD79F005821D4 /* Debug */,
+				487AFEC419FAD79F005821D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 487AFEA319FAD79F005821D4 /* Project object */;
+}
