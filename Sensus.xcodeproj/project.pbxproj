@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		487AFEAF19FAD79F005821D4 /* Sensus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 487AFEAE19FAD79F005821D4 /* Sensus.h */; };
-		487AFEB119FAD79F005821D4 /* Sensus.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEB019FAD79F005821D4 /* Sensus.m */; };
 		487AFEB719FAD79F005821D4 /* libSensus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 487AFEAB19FAD79F005821D4 /* libSensus.a */; };
+		487AFECA19FAD82A005821D4 /* NSDictionary+Sensus.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEC919FAD82A005821D4 /* NSDictionary+Sensus.m */; };
+		487AFED019FADA04005821D4 /* SNSRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFECF19FADA04005821D4 /* SNSRoot.m */; };
+		487AFEDB19FB0057005821D4 /* SNSSensTyped_asIs.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEDA19FB0057005821D4 /* SNSSensTyped_asIs.m */; };
+		487AFEDE19FB0193005821D4 /* SNSSensImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEDD19FB0193005821D4 /* SNSSensImpl.m */; };
+		487AFEE119FB035E005821D4 /* SNSSensTyped_asInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEE019FB035E005821D4 /* SNSSensTyped_asInteger.m */; };
+		487AFEE419FB0372005821D4 /* SNSSensTyped_asFloat.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEE319FB0372005821D4 /* SNSSensTyped_asFloat.m */; };
+		487AFEE719FB037B005821D4 /* SNSSensTyped_asBool.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEE619FB037B005821D4 /* SNSSensTyped_asBool.m */; };
+		487AFEEA19FB0386005821D4 /* SNSSensTyped_asString.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEE919FB0386005821D4 /* SNSSensTyped_asString.m */; };
+		487AFEED19FB0390005821D4 /* SNSSensTyped_asDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEEC19FB0390005821D4 /* SNSSensTyped_asDate.m */; };
+		487AFEF019FB039B005821D4 /* SNSSensTyped_asArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEEF19FB039B005821D4 /* SNSSensTyped_asArray.m */; };
+		487AFEF319FB03A7005821D4 /* SNSSensTyped_asDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 487AFEF219FB03A7005821D4 /* SNSSensTyped_asDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +38,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				487AFEAF19FAD79F005821D4 /* Sensus.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +45,32 @@
 
 /* Begin PBXFileReference section */
 		487AFEAB19FAD79F005821D4 /* libSensus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSensus.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		487AFEAE19FAD79F005821D4 /* Sensus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sensus.h; sourceTree = "<group>"; };
-		487AFEB019FAD79F005821D4 /* Sensus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sensus.m; sourceTree = "<group>"; };
 		487AFEB619FAD79F005821D4 /* SensusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		487AFEBC19FAD79F005821D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487AFEC819FAD82A005821D4 /* NSDictionary+Sensus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Sensus.h"; sourceTree = "<group>"; };
+		487AFEC919FAD82A005821D4 /* NSDictionary+Sensus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Sensus.m"; sourceTree = "<group>"; };
+		487AFECB19FAD8C9005821D4 /* SNSSens.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSens.h; sourceTree = "<group>"; };
+		487AFECE19FADA04005821D4 /* SNSRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSRoot.h; sourceTree = "<group>"; };
+		487AFECF19FADA04005821D4 /* SNSRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSRoot.m; sourceTree = "<group>"; };
+		487AFED719FAE047005821D4 /* Sensus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sensus.h; sourceTree = "<group>"; };
+		487AFED919FB0057005821D4 /* SNSSensTyped_asIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asIs.h; sourceTree = "<group>"; };
+		487AFEDA19FB0057005821D4 /* SNSSensTyped_asIs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asIs.m; sourceTree = "<group>"; };
+		487AFEDC19FB0193005821D4 /* SNSSensImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensImpl.h; sourceTree = "<group>"; };
+		487AFEDD19FB0193005821D4 /* SNSSensImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensImpl.m; sourceTree = "<group>"; };
+		487AFEDF19FB035E005821D4 /* SNSSensTyped_asInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asInteger.h; sourceTree = "<group>"; };
+		487AFEE019FB035E005821D4 /* SNSSensTyped_asInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asInteger.m; sourceTree = "<group>"; };
+		487AFEE219FB0372005821D4 /* SNSSensTyped_asFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asFloat.h; sourceTree = "<group>"; };
+		487AFEE319FB0372005821D4 /* SNSSensTyped_asFloat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asFloat.m; sourceTree = "<group>"; };
+		487AFEE519FB037B005821D4 /* SNSSensTyped_asBool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asBool.h; sourceTree = "<group>"; };
+		487AFEE619FB037B005821D4 /* SNSSensTyped_asBool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asBool.m; sourceTree = "<group>"; };
+		487AFEE819FB0386005821D4 /* SNSSensTyped_asString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asString.h; sourceTree = "<group>"; };
+		487AFEE919FB0386005821D4 /* SNSSensTyped_asString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asString.m; sourceTree = "<group>"; };
+		487AFEEB19FB0390005821D4 /* SNSSensTyped_asDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asDate.h; sourceTree = "<group>"; };
+		487AFEEC19FB0390005821D4 /* SNSSensTyped_asDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asDate.m; sourceTree = "<group>"; };
+		487AFEEE19FB039B005821D4 /* SNSSensTyped_asArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asArray.h; sourceTree = "<group>"; };
+		487AFEEF19FB039B005821D4 /* SNSSensTyped_asArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asArray.m; sourceTree = "<group>"; };
+		487AFEF119FB03A7005821D4 /* SNSSensTyped_asDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSensTyped_asDictionary.h; sourceTree = "<group>"; };
+		487AFEF219FB03A7005821D4 /* SNSSensTyped_asDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSensTyped_asDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +95,11 @@
 		487AFEA219FAD79F005821D4 = {
 			isa = PBXGroup;
 			children = (
-				487AFEAD19FAD79F005821D4 /* Sensus */,
+				487AFEF419FB144D005821D4 /* Core */,
+				487AFED819FB002B005821D4 /* Mappers */,
+				487AFED719FAE047005821D4 /* Sensus.h */,
+				487AFEC819FAD82A005821D4 /* NSDictionary+Sensus.h */,
+				487AFEC919FAD82A005821D4 /* NSDictionary+Sensus.m */,
 				487AFEBA19FAD79F005821D4 /* SensusTests */,
 				487AFEAC19FAD79F005821D4 /* Products */,
 			);
@@ -78,15 +112,6 @@
 				487AFEB619FAD79F005821D4 /* SensusTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		487AFEAD19FAD79F005821D4 /* Sensus */ = {
-			isa = PBXGroup;
-			children = (
-				487AFEAE19FAD79F005821D4 /* Sensus.h */,
-				487AFEB019FAD79F005821D4 /* Sensus.m */,
-			);
-			path = Sensus;
 			sourceTree = "<group>";
 		};
 		487AFEBA19FAD79F005821D4 /* SensusTests */ = {
@@ -103,6 +128,41 @@
 				487AFEBC19FAD79F005821D4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		487AFED819FB002B005821D4 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				487AFED919FB0057005821D4 /* SNSSensTyped_asIs.h */,
+				487AFEDA19FB0057005821D4 /* SNSSensTyped_asIs.m */,
+				487AFEDF19FB035E005821D4 /* SNSSensTyped_asInteger.h */,
+				487AFEE019FB035E005821D4 /* SNSSensTyped_asInteger.m */,
+				487AFEE219FB0372005821D4 /* SNSSensTyped_asFloat.h */,
+				487AFEE319FB0372005821D4 /* SNSSensTyped_asFloat.m */,
+				487AFEE519FB037B005821D4 /* SNSSensTyped_asBool.h */,
+				487AFEE619FB037B005821D4 /* SNSSensTyped_asBool.m */,
+				487AFEE819FB0386005821D4 /* SNSSensTyped_asString.h */,
+				487AFEE919FB0386005821D4 /* SNSSensTyped_asString.m */,
+				487AFEEB19FB0390005821D4 /* SNSSensTyped_asDate.h */,
+				487AFEEC19FB0390005821D4 /* SNSSensTyped_asDate.m */,
+				487AFEEE19FB039B005821D4 /* SNSSensTyped_asArray.h */,
+				487AFEEF19FB039B005821D4 /* SNSSensTyped_asArray.m */,
+				487AFEF119FB03A7005821D4 /* SNSSensTyped_asDictionary.h */,
+				487AFEF219FB03A7005821D4 /* SNSSensTyped_asDictionary.m */,
+			);
+			name = Mappers;
+			sourceTree = "<group>";
+		};
+		487AFEF419FB144D005821D4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				487AFECE19FADA04005821D4 /* SNSRoot.h */,
+				487AFECF19FADA04005821D4 /* SNSRoot.m */,
+				487AFECB19FAD8C9005821D4 /* SNSSens.h */,
+				487AFEDC19FB0193005821D4 /* SNSSensImpl.h */,
+				487AFEDD19FB0193005821D4 /* SNSSensImpl.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +253,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				487AFEB119FAD79F005821D4 /* Sensus.m in Sources */,
+				487AFEDB19FB0057005821D4 /* SNSSensTyped_asIs.m in Sources */,
+				487AFEDE19FB0193005821D4 /* SNSSensImpl.m in Sources */,
+				487AFED019FADA04005821D4 /* SNSRoot.m in Sources */,
+				487AFEEA19FB0386005821D4 /* SNSSensTyped_asString.m in Sources */,
+				487AFEE719FB037B005821D4 /* SNSSensTyped_asBool.m in Sources */,
+				487AFEE419FB0372005821D4 /* SNSSensTyped_asFloat.m in Sources */,
+				487AFEF319FB03A7005821D4 /* SNSSensTyped_asDictionary.m in Sources */,
+				487AFEE119FB035E005821D4 /* SNSSensTyped_asInteger.m in Sources */,
+				487AFECA19FAD82A005821D4 /* NSDictionary+Sensus.m in Sources */,
+				487AFEF019FB039B005821D4 /* SNSSensTyped_asArray.m in Sources */,
+				487AFEED19FB0390005821D4 /* SNSSensTyped_asDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +362,7 @@
 		487AFEC019FAD79F005821D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -301,6 +372,7 @@
 		487AFEC119FAD79F005821D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -1,5 +1,5 @@
 //
-//  Sensus.h
+//  NSDictionary+Sesnus.h
 //  Sensus
 //
 //  Created by Алексей Демедецкий on 24.10.14.
@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Sensus.h"
 
-@interface Sensus : NSObject
+@interface NSDictionary (Sensus)
+
+- (_SNSRoot<_SNSSens> *) sens;
 
 @end
