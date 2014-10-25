@@ -11,16 +11,16 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/DAlOG/Sensus"
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
 
   s.author             = { "Alexey DAloG Demedeckiy" => "dalog@me.com" }
 
   s.ios.deployment_target = "5.0"
   s.osx.deployment_target = "10.7"
 
-  s.source       = { :git => "https://github.com/DAlOG/Sensus.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/DAlOG/Sensus.git" }
 
-  s.source_files  = "Sensus", "Sensus/**/*.{h,m}"
+  s.source_files  = "Sensus/**/*.{h,m}"
   s.public_header_files = "Sensus/Sensus.h"
 
   s.requires_arc = true
