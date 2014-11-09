@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Sensus.h"
 
+@class _SNSRoot;
+@protocol _SNSSens;
 @interface NSDictionary (Sensus)
 
 - (_SNSRoot<_SNSSens> *) sens;

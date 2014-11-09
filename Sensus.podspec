@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/DAlOG/Sensus.git" }
 
   s.source_files  = "Sensus/**/*.{h,m}"
-  s.public_header_files = "Sensus/Sensus.h"
+  s.header_mappings_dir = 'Sensus/'
 
   s.requires_arc = true
 

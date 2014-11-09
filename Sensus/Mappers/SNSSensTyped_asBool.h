@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 DAloG. All rights reserved.
 //
 
-#import "SNSSens.h"
+#import <Sensus/Core/SNSSens.h>
 
 @protocol _SNSSensTyped_asBool
 
