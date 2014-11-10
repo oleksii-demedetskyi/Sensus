@@ -98,8 +98,7 @@
 			children = (
 				487AFEF519FB17B3005821D4 /* Sensus.podspec */,
 				487AFED719FAE047005821D4 /* Sensus.h */,
-				487AFEF419FB144D005821D4 /* Core */,
-				487AFED819FB002B005821D4 /* Mappers */,
+				869C57941A10196F000D97CC /* Sensus */,
 				487AFEBA19FAD79F005821D4 /* SensusTests */,
 				487AFEAC19FAD79F005821D4 /* Products */,
 			);
@@ -167,6 +166,15 @@
 			);
 			name = Core;
 			path = Sensus/Core;
+			sourceTree = "<group>";
+		};
+		869C57941A10196F000D97CC /* Sensus */ = {
+			isa = PBXGroup;
+			children = (
+				487AFEF419FB144D005821D4 /* Core */,
+				487AFED819FB002B005821D4 /* Mappers */,
+			);
+			name = Sensus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +375,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -377,6 +390,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					.,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -432,6 +450,7 @@
 				487AFEC119FAD79F005821D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		487AFEC219FAD79F005821D4 /* Build configuration list for PBXNativeTarget "SensusTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +459,7 @@
 				487AFEC419FAD79F005821D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

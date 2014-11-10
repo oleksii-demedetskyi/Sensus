@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "SNSSens.h"
+#import <Sensus/Core/SNSSens.h>
 
 
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "SNSRoot.h"
+#import <Sensus/Core/SNSRoot.h>
 
 #pragma mark Sens creation
 
