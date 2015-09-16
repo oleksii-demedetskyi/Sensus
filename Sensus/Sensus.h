@@ -9,16 +9,16 @@
 #ifndef Sensus_Sensus_h
 #define Sensus_Sensus_h
 
-#import "SNSSens.h"
-#import "NSDictionary+Sensus.h"
+#import <Sensus/Core/SNSSens.h>
+#import <Sensus/Core/NSDictionary+Sensus.h>
 
-#import "SNSSensTyped_asIs.h"
-#import "SNSSensTyped_asInteger.h"
-#import "SNSSensTyped_asFloat.h"
-#import "SNSSensTyped_asBool.h"
-#import "SNSSensTyped_asString.h"
-#import "SNSSensTyped_asDate.h"
-#import "SNSSensTyped_asArray.h"
-#import "SNSSensTyped_asDictionary.h"
+#import <Sensus/Mappers/SNSSensTyped_asIs.h>
+#import <Sensus/Mappers/SNSSensTyped_asInteger.h>
+#import <Sensus/Mappers/SNSSensTyped_asFloat.h>
+#import <Sensus/Mappers/SNSSensTyped_asBool.h>
+#import <Sensus/Mappers/SNSSensTyped_asString.h>
+#import <Sensus/Mappers/SNSSensTyped_asDate.h>
+#import <Sensus/Mappers/SNSSensTyped_asArray.h>
+#import <Sensus/Mappers/SNSSensTyped_asDictionary.h>
 
 #endif
